@@ -1,18 +1,45 @@
 ﻿using System;
+using System.Text;
 
 namespace CamelCase
 {
     public class StringMethods
     {
-        // write a method to return a "camel case" string from an input string:
-        // "The Cat In The Hat" should return "theCatInTheHat"
-        public static string CamelCase(string inputString)
+        public static string CamelCase(string input)
         {
-            return "";
+
+            var sb = new StringBuilder(input.ToLower());
+            sb[0] = Char.ToLower(sb[0]);
+
+
+            for (int i = 0; i < sb.Length; i++)
+            {
+                if (sb[i] == ' ' || sb[i] == '_' || sb[i] == '-')
+                {
+                    sb.Remove(i, 1);
+                    if (i != sb.Length) sb[i] = Char.ToUpper(sb[i]);
+                }
+            }
+            return sb.ToString();
+
         }
-        public static string PascalCase(string inputString)
+
+
+        public static string PascalCase(string input)
         {
-            return "";
+            var sb = new StringBuilder(input.ToLower());
+            sb[0] = Char.ToUpper(sb[0]);
+
+
+            for (int i = 0; i < sb.Length; i++)
+            {
+                if (sb[i] == ' ' || sb[i] == '_' || sb[i] == '-')
+                {
+                    sb.Remove(i, 1);
+                    if (i != sb.Length) sb[i] = Char.ToUpper(sb[i]);
+                }
+            }
+            return sb.ToString();
         }
     }
 }
