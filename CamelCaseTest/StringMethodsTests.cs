@@ -21,11 +21,8 @@ namespace CamelCaseTest
         {
             Assert.AreEqual("embryRiddleAeronauticalUniversity", StringMethods.CamelCase("Embry-Riddle Aeronautical University"));
         }
-        [TestMethod]
-        public void TestCamelCase_ShadowsInTheRain()
-        {
-            Assert.AreEqual("shadowsInTheRain", StringMethods.CamelCase("Shadows  in   the .. Rain"));
-        }
+        
+        
         [TestMethod]
         public void TestCamelCase_Programming_101()
         {
@@ -46,16 +43,8 @@ namespace CamelCaseTest
         {
             Assert.AreEqual("EmbryRiddleAeronauticalUniversity", StringMethods.PascalCase("Embry-Riddle Aeronautical University"));
         }
-        [TestMethod]
-        public void TestPascalCase_ShadowsInTheRain()
-        {
-            Assert.AreEqual("ShadowsInTheRain", StringMethods.PascalCase("Shadows  in   the .. Rain"));
-        }
-        [TestMethod]
-        public void TestPascalCase_Programming_101()
-        {
-            Assert.AreEqual("Programming101", StringMethods.PascalCase("Programming 101"));
-        }
+        
+        
 
     }
 }

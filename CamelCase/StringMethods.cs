@@ -14,7 +14,8 @@ namespace CamelCase
 
             for (int i = 0; i < sb.Length; i++)
             {
-                if (sb[i] == ' ' || sb[i] == '_' || sb[i] == '-')
+                if (sb[i] == ' ' || sb[i] == '_' 
+                    || sb[i] == '-' || sb[i] == '.')
                 {
                     sb.Remove(i, 1);
                     if (i != sb.Length) sb[i] = Char.ToUpper(sb[i]);
@@ -33,7 +34,8 @@ namespace CamelCase
 
             for (int i = 0; i < sb.Length; i++)
             {
-                if (sb[i] == ' ' || sb[i] == '_' || sb[i] == '-')
+                if (sb[i] == ' ' || sb[i] == '_' 
+                    || sb[i] == '-' || sb[i] == '.')
                 {
                     sb.Remove(i, 1);
                     if (i != sb.Length) sb[i] = Char.ToUpper(sb[i]);

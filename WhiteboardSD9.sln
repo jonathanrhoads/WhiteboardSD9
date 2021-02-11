@@ -23,9 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCase", "CamelCase\Came
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCaseTest", "CamelCaseTest\CamelCaseTest.csproj", "{562B89CB-7B3A-4E0C-9BE2-7A4005638561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{75C1AD0C-768A-4715-91D2-4F1398C62206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumbers", "PrimeNumber\PrimeNumbers.csproj", "{75C1AD0C-768A-4715-91D2-4F1398C62206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{06B7E33D-8991-4B7E-B29D-752AC75F6573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{06B7E33D-8991-4B7E-B29D-752AC75F6573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
