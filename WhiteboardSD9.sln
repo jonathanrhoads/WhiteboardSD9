@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumbers", "PrimeNumber
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{06B7E33D-8991-4B7E-B29D-752AC75F6573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "BubbleSort\Sorting.csproj", "{B87E02CD-F6B5-476A-A12E-DEE2210D4FCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorting", "BubbleSort\Sorting.csproj", "{B87E02CD-F6B5-476A-A12E-DEE2210D4FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortTest", "BubbleSortTest\BubbleSortTest.csproj", "{A491261E-9014-47D1-B11D-ED0E732C7A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortTest", "BubbleSortTest\BubbleSortTest.csproj", "{A491261E-9014-47D1-B11D-ED0E732C7A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{4E1E907E-2FB9-4E14-B5D4-2649E57AD28C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{A491261E-9014-47D1-B11D-ED0E732C7A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A491261E-9014-47D1-B11D-ED0E732C7A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A491261E-9014-47D1-B11D-ED0E732C7A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1E907E-2FB9-4E14-B5D4-2649E57AD28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1E907E-2FB9-4E14-B5D4-2649E57AD28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1E907E-2FB9-4E14-B5D4-2649E57AD28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1E907E-2FB9-4E14-B5D4-2649E57AD28C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
