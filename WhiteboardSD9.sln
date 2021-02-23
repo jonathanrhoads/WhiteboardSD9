@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortTest", "BubbleSor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{4E1E907E-2FB9-4E14-B5D4-2649E57AD28C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringEndsWith", "StringEndsWith\StringEndsWith.csproj", "{1A8FBA0A-B9A3-4384-9BFA-AF0769B90EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringEndsWith", "StringEndsWith\StringEndsWith.csproj", "{1A8FBA0A-B9A3-4384-9BFA-AF0769B90EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterSwap", "LetterSwap\LetterSwap.csproj", "{0925D974-2802-4594-AADB-4D862FBA9A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{1A8FBA0A-B9A3-4384-9BFA-AF0769B90EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A8FBA0A-B9A3-4384-9BFA-AF0769B90EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A8FBA0A-B9A3-4384-9BFA-AF0769B90EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0925D974-2802-4594-AADB-4D862FBA9A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0925D974-2802-4594-AADB-4D862FBA9A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0925D974-2802-4594-AADB-4D862FBA9A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0925D974-2802-4594-AADB-4D862FBA9A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
