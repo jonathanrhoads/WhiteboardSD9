@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterSwap", "LetterSwap\Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\RotateArray.csproj", "{EFF36B53-CD0D-4257-98A5-19C25CCCF7B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "Binary Search\BinarySearch.csproj", "{3B2D2BDB-8770-4F54-AB36-282151BF437B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "Binary Search\BinarySearch.csproj", "{3B2D2BDB-8770-4F54-AB36-282151BF437B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{BCAC4C6B-852E-49A2-9631-A9FA6E29F64B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{3B2D2BDB-8770-4F54-AB36-282151BF437B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B2D2BDB-8770-4F54-AB36-282151BF437B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B2D2BDB-8770-4F54-AB36-282151BF437B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAC4C6B-852E-49A2-9631-A9FA6E29F64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAC4C6B-852E-49A2-9631-A9FA6E29F64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAC4C6B-852E-49A2-9631-A9FA6E29F64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAC4C6B-852E-49A2-9631-A9FA6E29F64B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
